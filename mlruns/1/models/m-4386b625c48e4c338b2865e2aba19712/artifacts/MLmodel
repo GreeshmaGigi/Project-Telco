@@ -1,0 +1,27 @@
+artifact_path: /Users/greeshmagigi/Documents/Project-Telco/mlruns/1/models/m-4386b625c48e4c338b2865e2aba19712/artifacts
+flavors:
+  lightgbm:
+    code: null
+    data: model.skops
+    lgb_version: 4.7.0
+    model_class: lightgbm.sklearn.LGBMClassifier
+    serialization_format: skops
+    skops_trusted_types:
+    - lightgbm.sklearn.LGBMRegressor
+    - lightgbm.basic.Booster
+    - lightgbm.sklearn.LGBMClassifier
+    - collections.OrderedDict
+  python_function:
+    data: model.skops
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.lightgbm
+    python_version: 3.13.5
+mlflow_version: 3.16.1
+model_id: m-4386b625c48e4c338b2865e2aba19712
+model_size_bytes: 666623
+model_uuid: m-4386b625c48e4c338b2865e2aba19712
+prompts: null
+run_id: 6fd693da36ca476da5a15468343bd0e4
+utc_time_created: '2026-09-29 20:34:14.503645'
